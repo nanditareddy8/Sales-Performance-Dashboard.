@@ -1,5 +1,7 @@
 # Sales Performance & Business Intelligence Dashboard
 
+![Sales Dashboard](dashboard.png)
+
 ## 📌 Project Overview
 Developed an end-to-end data analytics pipeline to analyze retail sales data. This project extracts raw transactional data, cleans and transforms it using Python, loads it into a SQL database for querying, and visualizes the insights in an interactive Power BI dashboard.
 
@@ -19,7 +21,7 @@ Developed an end-to-end data analytics pipeline to analyze retail sales data. Th
 
 ## 📊 SQL Analysis
 Wrote SQL queries to aggregate business metrics, including:
-* Total revenue by region (`GROUP BY`, `SUM`).
+* Total revenue by state (`GROUP BY`, `SUM`).
 * Top 10 customers by revenue.
 * Monthly sales trends using date functions (`STRFTIME`).
 
@@ -27,12 +29,10 @@ Wrote SQL queries to aggregate business metrics, including:
 Built an interactive dashboard featuring:
 * **KPI Cards:** Total Revenue.
 * **Line Chart:** Sales trend over time (2015–2018).
-* **Bar Charts:** Sales by Region and Sales by Category.
-* **Slicer:** Dynamic filtering by region to allow stakeholders to drill down into specific markets.
+* **Bar Charts:** Sales by State and Sales by Category.
+* **Slicer:** Dynamic filtering by state to allow stakeholders to drill down into specific markets.
 
 ## 💡 Key Insights
 *   **Revenue Growth:** The company saw a massive surge in sales starting in 2017, doubling its revenue trajectory by 2018.
-*   **Regional Dominance:** The West region is the top-performing market, generating the highest total revenue ($710K) compared to other regions.
-*   **Product Performance:** Technology and Furniture are the highest-grossing product categories.
-
-*(Dashboard screenshot can be found in the repository files).*
+*   **State Dominance:** California is the top-performing market, generating the highest total revenue compared to other states.
+*   **Product Performance:** Furniture and Technology are the highest-grossing product categories.
